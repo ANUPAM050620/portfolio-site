@@ -20,6 +20,10 @@
   "homepage": "https://github.com/ANUPAM050620/portfolio-site#readme",
   "dependencies": {
     "body-parser": "^2.2.2",
+<<<<<<< Updated upstream
+=======
+    "ejs": "^4.0.1",
+>>>>>>> Stashed changes
     "express": "^5.2.1",
     "path": "^0.12.7"
   }
