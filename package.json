@@ -13,18 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ANUPAM050620/portfolio-site/issues"
   },
   "homepage": "https://github.com/ANUPAM050620/portfolio-site#readme",
   "dependencies": {
+    "axios": "^1.13.4",
     "body-parser": "^2.2.2",
-<<<<<<< Updated upstream
-=======
     "ejs": "^4.0.1",
->>>>>>> Stashed changes
     "express": "^5.2.1",
     "path": "^0.12.7"
   }
 }
+ 
