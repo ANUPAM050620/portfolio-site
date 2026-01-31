@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/public/style/style.css">
+    <link rel="stylesheet" href="/public/style/header.css">
+
     <title>Home Page</title>
 </head>
+
 <body>
+
     <h1 class="intro">Welcome to My Portfolio</h1>
     <p class="description">Explore my projects and skills.</p>
-    
-    <div class="fisrst">
-        <ing class="project-image"></ing>
+
+
+
+    <div class="bubble active"></div>
+    <div class="bubble hover"></div>
+    <nav class="nav">
+        <a class="active" href="#">Projects</a>
+        <a href="#">Gallery</a>
+        <a href="#">Studio</a>
+        <a href="#">Profile</a>
+    </nav>
+    </div>
+
+    <div class="first">
+        <img src="/public/style/image.jpg" alt="Project One Image" class="project-image">
         <h2 class="project-title">Project One</h2>
-        <p class="project-description">Description of Project One.</p>      
+        <p class="project-description">Description of Project One.</p>
         <button class="project-btn">Open</button>
     </div>
+<<<<<<< Updated upstream:view/home.html
     
+=======
+
+    <script>
+        const links = document.querySelectorAll("nav a");
+        links.forEach((link) => {
+            link.addEventListener("click", () => {
+                links.forEach((l) => l.classList.remove("active"));
+                link.classList.add("active");
+            });
+        });
+    </script>
+
+>>>>>>> Stashed changes:view/home.ejs
 </body>
+
 </html>
